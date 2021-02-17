@@ -52,6 +52,8 @@ nav a {
     border-radius: 5px;
     color: white;
     padding: 7px;
+
+    display: inline-block;
 }
 
 /*HEADER*/
@@ -109,5 +111,25 @@ pagina rimarrebbero comunque uguali*/
 
 .link-icon-space {
     padding-left: 10px;
+}
+
+/*header vero e proprio*/
+.header-background {
+    height: 650px;
+    background-color: #fff6ef;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 90%;
+}
+
+.header-container {
+    width: 52%;
+}
+
+.header-container h1 {
+    font-weight: 800;
+    font-size: 45px;
+    padding-top: 48px;
 }
 /*HEADER*/
