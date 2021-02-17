@@ -49,11 +49,22 @@ nav a {
 .button {
     background-color: #fd7c60;
     border: 1px solid #fd7c60;
+    font-size: 12px;
+    padding: 17px 30px;
     border-radius: 5px;
     color: white;
-    padding: 7px;
 
     display: inline-block;
+}
+
+.page-paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.page-smaller-text {
+    font-size: 11px;
 }
 
 /*HEADER*/
@@ -99,6 +110,9 @@ pagina rimarrebbero comunque uguali*/
     margin: 0 18px;
 }
 
+.nav-top .button {
+    padding: 7px;
+}
 
 /*nav-bottom*/
 .logo-container {
@@ -115,21 +129,43 @@ pagina rimarrebbero comunque uguali*/
 
 /*header vero e proprio*/
 .header-background {
-    height: 650px;
+    height: 653px;
     background-color: #fff6ef;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 90%;
+
+    position: relative;
 }
 
 .header-container {
-    width: 52%;
+    width: 51%;
 }
 
 .header-container h1 {
     font-weight: 800;
     font-size: 45px;
     padding-top: 48px;
+}
+
+.header-container .page-paragraph {
+    padding: 25px 0;
+}
+
+.header-container .page-smaller-text {
+    padding-top: 25px;
+}
+
+.header-divider {
+    height: 70px;
+    width: 100%;
+    background-color: #afebe4;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 /*HEADER*/
