@@ -16,6 +16,7 @@ body {
 
 a {
     text-decoration: none;
+    font-size: 14px;
 }
 
 .container {
@@ -42,19 +43,34 @@ nav ul li {
 
 nav a {
     color: #33475b;
-    font-size: 12px;
     font-weight: 500;
 }
 
 .button {
     background-color: #fd7c60;
     border: 1px solid #fd7c60;
-    font-size: 12px;
     padding: 17px 30px;
     border-radius: 5px;
     color: white;
 
     display: inline-block;
+}
+
+.page-h2 {
+    font-size: 25px;
+}
+
+.page-h3 {
+    font-size: 22px;
+    font-weight: 750;
+}
+
+.sub-h3 {
+    font-size: 17px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .page-paragraph {
@@ -67,7 +83,7 @@ nav a {
     font-size: 11px;
 }
 
-/*HEADER*/
+/*NAV*/
 /*nav-top*/
 .nav-top {
     background-color: #f4f9fd;
@@ -126,8 +142,9 @@ pagina rimarrebbero comunque uguali*/
 .link-icon-space {
     padding-left: 10px;
 }
+/*END NAV*/
 
-/*header vero e proprio*/
+/*HEADER*/
 .header-background {
     height: 653px;
     background-color: #fff6ef;
@@ -169,3 +186,53 @@ pagina rimarrebbero comunque uguali*/
     left: 0;
 }
 /*HEADER*/
+
+/*MAIN*/
+/*software presentation section*/
+
+    /*motto*/
+    .motto {
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        padding: 25px 0;
+    }
+
+    .motto img {
+        height: 150px;
+        width: auto;
+    }
+
+    .motto .page-h2 {
+        padding-bottom: 25px;
+    }
+
+    /*presentation-row*/
+    .presentation-row {
+        background-color: #33475b;
+        padding: 75px 90px;
+    }
+
+    .two-col {
+        background-color: beige;
+        margin: 0 auto;
+    }
+
+    .presentation-row-left {
+        width: 25%;
+    }
+
+    .presentation-row-right {
+        width: 75%;
+    }
+
+    .presentation-img {
+        padding-bottom: 20px;
+    }
+    
+    .presentation-img img {
+        height: 95px;
+        width: auto;
+        display: block;
+    }
+/* END MAIN */
