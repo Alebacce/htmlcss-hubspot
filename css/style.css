@@ -7,12 +7,16 @@
 /*COMMON*/
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    color: #33475b;
 }
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width:70%;
     margin: 0 auto;
-    /*TEST*/
-    background-color: pink  ;
 }
 
 .clearfix::after {
@@ -23,12 +27,26 @@ body {
 .col {
     float: left;
 }
+
+nav a {
+    color: #33475b;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: #fd7c60;
+    border: 1px solid #fd7c60;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+}
+
 /*HEADER*/
 /*nav-top*/
 .nav-top {
-    /*TEST*/
     background-color: #f4f9fd;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #b9c3cb;
 }
 
 .nav-top ul {
@@ -37,23 +55,42 @@ body {
 
 .nav-top ul li {
     display: inline-block;
-    /* TEST */
-    padding: 0 20px 0 20px;   
 }
 
 .top-menu {
     width: 50%;
-    padding: 20px 0;
+    padding: 18px 0;
 }
 
 .top-menu-right {
     text-align: right;
 }
 
+/*La parte float di sinistra ha padding personalizzati per ottenere il design
+giusto. Ho usato ID perché tanto non tornano più e in caso di nuova
+pagina rimarrebbero comunque uguali*/
+
 #language-selector {
-    /* TEST */
-    padding-left: 0;
-    border-right: 1px solid black;
+    padding-right: 18px;
+    border-right: 2px solid #b9c3cb;
+}
+
+#contact-us {
+    padding-left: 18px;
+}
+
+#search {
+    color: #0ba8c0;
+}
+
+/*Anche qui un ID siccome è unico ma uguale in caso di nuova pagina*/
+#login {
+    color: #fd7c60;
+    background-color: white;
+    border: 1px solid #fd7c60;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 0 18px;
 }
 
 /*HEADER*/
