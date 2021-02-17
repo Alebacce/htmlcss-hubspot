@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 /*COMMON*/
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -15,7 +19,7 @@ a {
 }
 
 .container {
-    width:70%;
+    width:71%;
     margin: 0 auto;
 }
 
@@ -26,6 +30,14 @@ a {
 }
 .col {
     float: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 nav a {
@@ -49,20 +61,12 @@ nav a {
     border-bottom: 2px solid #b9c3cb;
 }
 
-.nav-top ul {
-    list-style-type: none;
-}
-
-.nav-top ul li {
-    display: inline-block;
-}
-
-.top-menu {
+.nav-menu {
     width: 50%;
     padding: 18px 0;
 }
 
-.top-menu-right {
+.nav-menu-right {
     text-align: right;
 }
 
@@ -93,4 +97,17 @@ pagina rimarrebbero comunque uguali*/
     margin: 0 18px;
 }
 
+
+/*nav-bottom*/
+.logo-container {
+    width: 18%;
+}
+
+.nav-bottom .nav-menu-right li {
+    margin-left: 18px;
+}
+
+.link-icon-space {
+    padding-left: 10px;
+}
 /*HEADER*/
