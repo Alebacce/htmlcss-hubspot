@@ -83,6 +83,21 @@ nav a {
     font-size: 11px;
 }
 
+.software-banner {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px lightgrey;
+}
+
+.main-features {
+    list-style-type: none;
+}
+
+.check-entity {
+    color: #fd7c60;
+    margin-right: 10px;
+}
+
 /*NAV*/
 /*nav-top*/
 .nav-top {
@@ -189,6 +204,9 @@ pagina rimarrebbero comunque uguali*/
 
 /*MAIN*/
 /*software presentation section*/
+.software-presentation {
+    background-color: #f4f9fd;
+}
 
     /*motto*/
     .motto {
@@ -209,12 +227,12 @@ pagina rimarrebbero comunque uguali*/
 
     /*presentation-row*/
     .presentation-row {
-        background-color: #33475b;
         padding: 75px 90px;
     }
 
     .two-col {
-        background-color: beige;
+        /*TEST*/
+        /* background-color: springgreen; */
         margin: 0 auto;
     }
 
@@ -227,12 +245,36 @@ pagina rimarrebbero comunque uguali*/
     }
 
     .presentation-img {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     
     .presentation-img img {
         height: 95px;
         width: auto;
         display: block;
+    }
+
+    .presentation-row-right .page-paragraph {
+        padding: 20px 0 15px 0;
+    }
+
+    .presentation-row-divider h3, 
+    .presentation-row-divider .col-divider {
+        display: inline-block;
+    }
+
+    .col-divider {
+        width: 70%;
+        margin-left: 43px;
+        border-bottom: 3px solid #9da5a9;
+        vertical-align: middle;
+    }
+    .presentation-row .main-features {
+       padding: 20px 0 0 0;
+    }
+
+    .main-features li {
+        display: inline-block;
+        margin-right: 15px;
     }
 /* END MAIN */
