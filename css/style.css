@@ -71,7 +71,7 @@ nav a {
 
 .page-h3 {
     font-size: 22px;
-    font-weight: 750;
+    font-weight: 700;
 }
 
 .sub-h3 {
@@ -444,5 +444,72 @@ pagina rimarrebbero comunque uguali*/
 }
 /* END MAIN */
 
-    /*FOOTER*/
-    /*END FOOTER*/
+/*FOOTER*/
+footer {
+    background-color: #33475b;
+}
+
+.site-browsing-links {
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.footer-col {
+    width: 20%;
+    margin-right: 5%;
+}
+.link-title-container {
+    padding-bottom: 25px;
+}
+
+.link-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #c1ccd8;
+}
+
+.site-browsing-links .footer-link {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#footer-button {
+    background-color: #c1ccd8;
+    color:  #33475b;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: max-content;
+    display: block;
+}
+
+.icon-container {
+    display: inline-block;
+    width: 14%;
+}
+
+.icon {
+    color: #c1ccd8;
+}
+
+.language-bar {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c1ccd8;
+}
+
+.language-container {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copyright-and-legal {
+    padding: 35px 0;
+}
+/*END FOOTER*/
