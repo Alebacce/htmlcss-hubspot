@@ -11,7 +11,7 @@ img {
 /*COMMON*/
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    color: #33475b;
+    color: #32495b;
 }
 
 a {
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav a {
-    color: #33475b;
+    color: #32495b;
     font-weight: 500;
 }
 
@@ -163,6 +163,10 @@ nav a {
     padding: 18px 0;
 }
 
+.nav-menu-left {
+    line-height: 36px;
+}
+
 .nav-menu-right {
     text-align: right;
 }
@@ -232,8 +236,8 @@ pagina rimarrebbero comunque uguali*/
     height: 70px;
     width: 100%;
     background-color: #afebe4;
-    border-top: 3px solid #33475b;
-    border-bottom: 3px solid #33475b;
+    border-top: 3px solid #32495b;
+    border-bottom: 3px solid #32495b;
 
     position: absolute;
     bottom: 0;
@@ -250,7 +254,7 @@ pagina rimarrebbero comunque uguali*/
 /*motto*/
 .motto {
     margin: 0 auto;
-    width: 80%;
+    width: 65%;
     text-align: center;
     padding: 35px 0;
 }
@@ -446,7 +450,7 @@ pagina rimarrebbero comunque uguali*/
 
 /*FOOTER*/
 footer {
-    background-color: #33475b;
+    background-color: #32495b;
 }
 
 .site-browsing-links {
@@ -480,7 +484,7 @@ footer {
 
 #footer-button {
     background-color: #c1ccd8;
-    color:  #33475b;
+    color:  #32495b;
     font-size: 12px;
     padding: 10px;
     border-radius: 5px;
@@ -511,5 +515,22 @@ footer {
 
 .copyright-and-legal {
     padding: 35px 0;
+}
+
+.copyright .page-paragraph {
+    color: #c1ccd8;
+}
+
+.copyright, .legal {
+    width: 50%;
+}
+
+.legal {
+    text-align: right   ;
+}
+
+.legal-container {
+    display: inline-block;
+    margin-left: 20px;
 }
 /*END FOOTER*/
