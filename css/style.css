@@ -24,6 +24,10 @@ a {
     margin: 0 auto;
 }
 
+.smaller-container {
+    width: 60%;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -385,5 +389,37 @@ pagina rimarrebbero comunque uguali*/
 .learn-and-grow-col .page-smaller-text {
     padding-top: 15px;
     padding-bottom: 20px;
+}
+
+/*section customers*/
+
+.customers .two-col {
+    padding: 40px 0;
+}
+.customers-col-left {
+    width: 20%;
+}
+
+.customers-col-left .strong-number {
+    font-size: 51px;
+    font-weight: 700;
+    padding-bottom: 37px;
+}
+.customers-col-right {
+    width: 80%;
+    padding-left: 140px;
+    padding-bottom: 80px;
+}
+
+.customers-logo-container {
+    display: inline-block;
+    width: 22.5%;
+    margin-left: 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+.customers-logo-container img {
+    width: 80%;
+    height: auto;
 }
 /* END MAIN */
