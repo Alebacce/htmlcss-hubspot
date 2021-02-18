@@ -57,7 +57,8 @@ nav a {
 }
 
 .page-h2 {
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .page-h3 {
@@ -111,6 +112,24 @@ nav a {
 .check-entity {
     color: #fd7c60;
     margin-right: 10px;
+}
+
+.learn-and-grow-stats-number {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.plus-symbol {
+    position: relative;
+    /* line-height: 28px; */
+    font-size: 23px;
+    font-weight: 400;
+    /* vertical-align: middle; */
+    /* display: inline-block; */
+    /* top: 50%; */
+    /* right: 0; */
+    bottom: 5px;
+    left: -5px;
 }
 
 /*NAV*/
@@ -218,7 +237,7 @@ pagina rimarrebbero comunque uguali*/
 /*HEADER*/
 
 /*MAIN*/
-/*software presentation section*/
+/*section software presentation*/
 .software-presentation {
     background-color: #f4f9fd;
 }
@@ -246,8 +265,6 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .two-col {
-    /*TEST*/
-    /* background-color: springgreen; */
     margin: 0 auto;
 }
 
@@ -268,7 +285,8 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .presentation-row-divider h3, 
-.presentation-row-divider .col-divider {
+.presentation-row-divider .col-divider,
+.presentation-row .main-features li {
     display: inline-block;
 }
 
@@ -282,7 +300,6 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .presentation-row .main-features li {
-    display: inline-block;
     margin-right: 15px;
 }
 
@@ -325,5 +342,48 @@ pagina rimarrebbero comunque uguali*/
 
 .presentation-col .main-features {
     padding-bottom: 30px;
+}
+
+/*section learn and grow*/
+.learn-and-grow {
+    background-color: #00b2af;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.learn-and-grow-intro .page-h2 {
+    padding-bottom: 25px;
+}
+
+.hubspot-stats {
+    padding-top: 40px;
+}
+.learn-and-grow-col {
+    width: 25%;
+}
+
+.learn-and-grow-img {
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.learn-and-grow-img img {   
+    width: auto;
+    height: 25%;
+}
+
+.col-border-right {
+    border-right: 1px solid white;
+}
+
+.col-border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.learn-and-grow-col .page-smaller-text {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 /* END MAIN */
