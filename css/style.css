@@ -60,6 +60,10 @@ nav a {
     display: inline-block;
 }
 
+.page-h1 {
+    font-weight: 800;
+    font-size: 45px;
+}
 .page-h2 {
     font-size: 28px;
     font-weight: 700;
@@ -84,10 +88,21 @@ nav a {
     line-height: 25px;
 }
 
+.get-started {
+    width: 51%;
+}
+
 .page-smaller-text {
     font-size: 11px;
 }
 
+.get-started .page-paragraph {
+    padding: 30px 0;
+}
+
+.get-started .page-smaller-text {
+    padding-top: 40px;
+}
 .software-banner {
     background-color: white;
     border-radius: 5px;
@@ -209,22 +224,8 @@ pagina rimarrebbero comunque uguali*/
     position: relative;
 }
 
-.header-container {
-    width: 51%;
-}
-
-.header-container h1 {
-    font-weight: 800;
-    font-size: 45px;
+.get-started .page-h1 {
     padding-top: 48px;
-}
-
-.header-container .page-paragraph {
-    padding: 25px 0;
-}
-
-.header-container .page-smaller-text {
-    padding-top: 25px;
 }
 
 .header-divider {
@@ -266,10 +267,6 @@ pagina rimarrebbero comunque uguali*/
 /*presentation-row*/
 .presentation-row {
     padding: 75px 90px;
-}
-
-.two-col {
-    margin: 0 auto;
 }
 
 .presentation-row-left {
@@ -401,7 +398,7 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .customers-col-left .strong-number {
-    font-size: 51px;
+    font-size: 45px;
     font-weight: 700;
     padding-bottom: 37px;
 }
@@ -422,4 +419,30 @@ pagina rimarrebbero comunque uguali*/
     width: 80%;
     height: auto;
 }
+
+.text-and-photo {
+    padding-bottom: 40px;
+}
+
+.col-text-left {
+    width: 41%;
+    padding-top: 50px;
+}
+
+.col-text-left h2 {
+    font-size: 32px;
+}
+
+.col-photo-right {
+    text-align: right;
+    width: 59%;
+}
+
+.col-photo {
+   width: 46%;
+   display: inline-block;
+}
 /* END MAIN */
+
+    /*FOOTER*/
+    /*END FOOTER*/
