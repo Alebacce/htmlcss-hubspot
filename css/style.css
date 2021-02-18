@@ -89,8 +89,23 @@ nav a {
     box-shadow: 1px 1px 8px lightgrey;
 }
 
+.presentation-img img {
+    height: 95px;
+    width: auto;
+    display: block;
+}
+
 .main-features {
     list-style-type: none;
+}
+
+.main-features li {
+    font-size: 14px;
+}
+
+.col-divider {
+    width: 100%;
+    border-bottom: 3px solid #9da5a9;
 }
 
 .check-entity {
@@ -208,73 +223,107 @@ pagina rimarrebbero comunque uguali*/
     background-color: #f4f9fd;
 }
 
-    /*motto*/
-    .motto {
-        margin: 0 auto;
-        width: 80%;
-        text-align: center;
-        padding: 25px 0;
-    }
+/*motto*/
+.motto {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 35px 0;
+}
 
-    .motto img {
-        height: 150px;
-        width: auto;
-    }
+.motto img {
+    height: 150px;
+    width: auto;
+}
 
-    .motto .page-h2 {
-        padding-bottom: 25px;
-    }
+.motto .page-h2 {
+    padding-bottom: 25px;
+}
 
-    /*presentation-row*/
-    .presentation-row {
-        padding: 75px 90px;
-    }
+/*presentation-row*/
+.presentation-row {
+    padding: 75px 90px;
+}
 
-    .two-col {
-        /*TEST*/
-        /* background-color: springgreen; */
-        margin: 0 auto;
-    }
+.two-col {
+    /*TEST*/
+    /* background-color: springgreen; */
+    margin: 0 auto;
+}
 
-    .presentation-row-left {
-        width: 25%;
-    }
+.presentation-row-left {
+    width: 25%;
+}
 
-    .presentation-row-right {
-        width: 75%;
-    }
+.presentation-row-right {
+    width: 75%;
+}
 
-    .presentation-img {
-        padding-bottom: 10px;
-    }
-    
-    .presentation-img img {
-        height: 95px;
-        width: auto;
-        display: block;
-    }
+.presentation-img {
+    padding-bottom: 10px;
+}
 
-    .presentation-row-right .page-paragraph {
-        padding: 20px 0 15px 0;
-    }
+.presentation-row-right .page-paragraph {
+    padding: 20px 0 15px 0;
+}
 
-    .presentation-row-divider h3, 
-    .presentation-row-divider .col-divider {
-        display: inline-block;
-    }
+.presentation-row-divider h3, 
+.presentation-row-divider .col-divider {
+    display: inline-block;
+}
 
-    .col-divider {
-        width: 70%;
-        margin-left: 43px;
-        border-bottom: 3px solid #9da5a9;
-        vertical-align: middle;
-    }
-    .presentation-row .main-features {
-       padding: 20px 0 0 0;
-    }
+.presentation-row-divider .col-divider {
+    width: 70%;
+    margin-left: 43px;
+    vertical-align: middle;
+}
+.presentation-row .main-features {
+    padding-top: 20px;
+}
 
-    .main-features li {
-        display: inline-block;
-        margin-right: 15px;
-    }
+.presentation-row .main-features li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/*presentation-col*/
+.presentation-col {
+    padding: 35px 0;
+}
+
+.three-col-item {
+    width: 30%;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.three-col-centered {
+    width: 30%;
+    margin: 0 5%;
+}
+
+.three-col-item .presentation-img img{
+    margin: 0 auto;
+}
+
+.presentation-col .main-features li {
+    text-align: left;
+}
+
+.presentation-col .page-h3 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.presentation-col .col-divider {
+    padding-top: 60px;
+}
+
+.presentation-col .sub-h3 {
+    padding: 25px 0;
+}
+
+.presentation-col .main-features {
+    padding-bottom: 30px;
+}
 /* END MAIN */
