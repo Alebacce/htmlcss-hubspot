@@ -1,3 +1,4 @@
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ img {
 }
 
 /*COMMON*/
+/*general*/
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     color: #32495b;
@@ -28,6 +30,15 @@ a {
     width: 60%;
 }
 
+.ul-standard {
+    list-style-type: none;
+}
+
+.ul-standard li {
+    font-size: 14px;
+}
+
+/*float*/
 .clearfix::after {
     content: "";
     display: table;
@@ -37,6 +48,7 @@ a {
     float: left;
 }
 
+/*nav*/
 nav ul {
     list-style-type: none;
 }
@@ -60,6 +72,7 @@ nav a {
     display: inline-block;
 }
 
+/*font and styles*/
 .page-h1 {
     font-weight: 800;
     font-size: 45px;
@@ -88,6 +101,7 @@ nav a {
     line-height: 25px;
 }
 
+/*get started section in header and main*/
 .get-started {
     width: 51%;
 }
@@ -103,24 +117,18 @@ nav a {
 .get-started .page-smaller-text {
     padding-top: 40px;
 }
+
+/*main*/
 .software-banner {
     background-color: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 8px lightgrey;
+    box-shadow: 1px 1px 4px lightgrey;
 }
 
 .presentation-img img {
     height: 95px;
     width: auto;
     display: block;
-}
-
-.main-features {
-    list-style-type: none;
-}
-
-.main-features li {
-    font-size: 14px;
 }
 
 .col-divider {
@@ -138,18 +146,23 @@ nav a {
     font-weight: 900;
 }
 
+/*Volevo centrare vertcalmente esattamente a metà il segno più, cosa
+che con vertical-align: middle non riuscivo. Probabilmente è un metodo
+troppo macchinoso contando anche l'utilizzo del segno "-", ma funziona
+perciò l'ho lasciato*/
 .plus-symbol {
     position: relative;
-    /* line-height: 28px; */
     font-size: 23px;
     font-weight: 400;
-    /* vertical-align: middle; */
-    /* display: inline-block; */
-    /* top: 50%; */
-    /* right: 0; */
     bottom: 5px;
     left: -5px;
 }
+
+/*footer*/
+.footer-text-color {
+    color: #dadee0;
+}
+/*END COMMON*/
 
 /*NAV*/
 /*nav-top*/
@@ -233,7 +246,7 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .header-divider {
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: #afebe4;
     border-top: 3px solid #32495b;
@@ -243,7 +256,7 @@ pagina rimarrebbero comunque uguali*/
     bottom: 0;
     left: 0;
 }
-/*HEADER*/
+/*END HEADER*/
 
 /*MAIN*/
 /*section software presentation*/
@@ -256,7 +269,7 @@ pagina rimarrebbero comunque uguali*/
     margin: 0 auto;
     width: 65%;
     text-align: center;
-    padding: 35px 0;
+    padding: 40px 0;
 }
 
 .motto img {
@@ -291,7 +304,7 @@ pagina rimarrebbero comunque uguali*/
 
 .presentation-row-divider h3, 
 .presentation-row-divider .col-divider,
-.presentation-row .main-features li {
+.presentation-row .ul-standard li {
     display: inline-block;
 }
 
@@ -300,17 +313,17 @@ pagina rimarrebbero comunque uguali*/
     margin-left: 43px;
     vertical-align: middle;
 }
-.presentation-row .main-features {
+.presentation-row .ul-standard {
     padding-top: 20px;
 }
 
-.presentation-row .main-features li {
+.presentation-row .ul-standard li {
     margin-right: 15px;
 }
 
 /*presentation-col*/
 .presentation-col {
-    padding: 35px 0;
+    padding: 40px 0;
 }
 
 .three-col-item {
@@ -328,7 +341,7 @@ pagina rimarrebbero comunque uguali*/
     margin: 0 auto;
 }
 
-.presentation-col .main-features li {
+.presentation-col .ul-standard li {
     text-align: left;
 }
 
@@ -345,13 +358,14 @@ pagina rimarrebbero comunque uguali*/
     padding: 25px 0;
 }
 
-.presentation-col .main-features {
+.presentation-col .ul-standard {
     padding-bottom: 30px;
 }
 
 /*section learn and grow*/
 .learn-and-grow {
-    background-color: #00b2af;
+    background: rgb(0,165,187);
+    background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
     text-align: center;
     color: white;
     padding-top: 50px;
@@ -359,7 +373,7 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .learn-and-grow-intro .page-h2 {
-    padding-bottom: 25px;
+    padding-bottom: 32px;
 }
 
 .hubspot-stats {
@@ -393,7 +407,6 @@ pagina rimarrebbero comunque uguali*/
 }
 
 /*section customers*/
-
 .customers .two-col {
     padding: 40px 0;
 }
@@ -425,7 +438,7 @@ pagina rimarrebbero comunque uguali*/
 }
 
 .text-and-photo {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .col-text-left {
@@ -474,7 +487,6 @@ footer {
 
 .footer-link {
     display: inline-block;
-    color: #c1ccd8;
 }
 
 .site-browsing-links .footer-link {
@@ -482,8 +494,9 @@ footer {
     margin-bottom: 20px;
 }
 
+/*ID come per login, elemento unico*/
 #footer-button {
-    background-color: #c1ccd8;
+    background-color: #dadee0;
     color:  #32495b;
     font-size: 12px;
     padding: 10px;
@@ -498,14 +511,10 @@ footer {
     width: 14%;
 }
 
-.icon {
-    color: #c1ccd8;
-}
-
 .language-bar {
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid #c1ccd8;
+    border-bottom: 1px solid #dadee0;
 }
 
 .language-container {
@@ -515,10 +524,6 @@ footer {
 
 .copyright-and-legal {
     padding: 35px 0;
-}
-
-.copyright .page-paragraph {
-    color: #c1ccd8;
 }
 
 .copyright, .legal {
